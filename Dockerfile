@@ -5,3 +5,5 @@ RUN apt-get update \
     && apt-get clean
 
 WORKDIR /workspace
+
+# You can append more instructions from here.
