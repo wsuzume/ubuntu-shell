@@ -22,3 +22,6 @@ $ git push --mirror git@github.com:[your account]/ubuntu-shell-mirror.git
 `make clean` is just an alias of `docker container prune` removes all stopped container.
 
 `make doomsday` removes all images, be careful when you run this command.
+
+## LICENSE
+This is free and unencumbered software released into the public domain.
