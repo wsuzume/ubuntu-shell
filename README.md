@@ -17,7 +17,7 @@ $ git push --mirror git@github.com:[your account]/ubuntu-shell-mirror.git
 
 `make build` builds the image.
 
-`make shell` enables you to login the container, mounts `${PWD}/workspace` as `/workspace`.
+`make shell` enables you to login to the container, mounts `${PWD}/workspace` as `/workspace`.
 
 `make clean` is just an alias of `docker container prune` removes all stopped container.
 
