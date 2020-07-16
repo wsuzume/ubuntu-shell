@@ -2,6 +2,7 @@
 Simple Dockerfile and Makefile which activates a container as an ubuntu shell.
 
 ## Usage
+Just fork this repository.
 
 `make build` builds the image.
 
