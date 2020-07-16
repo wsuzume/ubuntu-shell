@@ -2,7 +2,18 @@
 Simple Dockerfile and Makefile which activates a container as an ubuntu shell.
 
 ## Usage
-Just fork this repository.
+
+Fork this repository as your own and make new empty repository on your GitHub account, like `ubuntu-shell-mirror`.
+
+Then following commands copies this repository to your new empty repository.
+
+```
+$ git clone git@github:[your account]/ubuntu-shell.git
+$ cd ubuntu-shell
+$ git push --mirror git@github.com:[your account]/ubuntu-shell-mirror.git
+```
+
+### Commands
 
 `make build` builds the image.
 
