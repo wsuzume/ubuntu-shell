@@ -2,9 +2,9 @@ SOURCE=Dockerfile
 IMAGE=ubuntu-shell/ubuntuvm:latest
 CONTAINER=ubuntu-vm
 
-# build container
-.PHONY: build
-build: Dockerfile
+# build container image
+.PHONY: image
+image: Dockerfile
 	docker image build -f ${SOURCE} -t ${IMAGE} .
 
 # create new container and login to the shell
