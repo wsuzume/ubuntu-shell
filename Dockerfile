@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 RUN apt-get update \
-    && apt-get install --no-install-recommends -y \
+    && apt-get install --no-install-recommends --no-install-suggests -y \
          vim git curl wget \
          python3 python3-pip \
     && apt-get clean
