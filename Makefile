@@ -17,7 +17,7 @@ push:
 # create new container and login to the shell
 .PHONY: shell
 shell:
-	docker container run -it --rm -v ${PWD}/workspace:/workspace ${IMAGE}
+	docker container run -it --rm -u `id -u`:`id -g` -v ${PWD}/workspace:/workspace ${IMAGE}
 
 # clean up all stopped containers
 .PHONY: clean
